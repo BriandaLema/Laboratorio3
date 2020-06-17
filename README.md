@@ -20,10 +20,9 @@ TEMA: Análisis de nodos
 
 ## 2. PLANTEAMIENTO DEL PROBLEMA
 
-Este proyecto consistió en la implementación de un circuito electrónico virtual en un programa online denominado Tinkercad con la finalidad de experimentar una simulación del circuito donde es posible aplicar el Análisis de nodos. 
+Este laboratorio consistió en la implementació de un circuito mixto en un programa online denominado Tinkercad con la finalidad de experimentar una simulación del circuito donde es posible aplicar el Análisis de nodos basado en las Leyes de Kirchhoff. 
 
-Se procede a realizar ensamblaje   del circuito con resistencias en serie y paralelo de diferentes valores para que estas forme el circuito con el fin de poder realizar su análisis midiendo los voltajes de cada resistencia a través de
-
+Se procede a acoplar y ensamblar el circuito con resistencias en serie y paralelo de diferentes valores para que estas forme el circuito en el cuál se pudo medir el valor de los voltajes pertenecientes a cada resistencia a traves de cada una de las intencidades que interfienen en distintos nodos del circuito.
 
 ## 3. MARCO TEÓRICO 
 
@@ -81,17 +80,17 @@ Realizamos el mismo procedimiento en los siguientes nodos y obtendremos una seri
 
 ## 4. DIAGRAMAS
 
-Para este laboratorio se utilizó un circuito mixto en donde podemos diferenciarque existen 5 nodos:
+Para este laboratorio se utilizó un circuito mixto en donde podemos diferenciar que existen 5 nodos:
 
-* Entre la fuente V1 de la izquierda y la resistencia 1.
+- Entre la fuente V1 de la izquierda y la resistencia 1.
 
-* Entre las resistencias R1, R2 y R3. 
+- Entre las resistencias R1, R2 y R3. 
 
-* Entre las resistencias R3, R4 y R5. 
+- Entre las resistencias R3, R4 y R5. 
 
-* Entre la fuente V2 de la derecha y la resistencia R5. 
+- Entre la fuente V2 de la derecha y la resistencia R5. 
 
-* Entre V1, R2, R4 y V2.
+- Entre V1, R2, R4 y V2.
 
 ![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Laboratorio%203.png)
 
