@@ -26,11 +26,13 @@ Se procede a realizar ensamblaje   del circuito con resistencias en serie y para
 
 ## 3. MARCO TEÓRICO 
 
-NODO
+**NODO**
 
 Un nodo es un punto donde se cruzan dos o más elementos de un circuito eléctrico , ya sea este elemento una fuente de voltaje, corriente, resistencias, etc. 
 
 Ejemplo:
+
+![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Ejemplo.png)
 
 
 
