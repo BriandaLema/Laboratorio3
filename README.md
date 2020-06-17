@@ -34,6 +34,10 @@ Ejemplo:
 
 ![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Ejemplo.png)
 
+Este circuito tiene cuatro nodos : A, B, C y D. Tenemos que tomar en cuenta que los quiebres de las líneas no constituyen necesariamente nodos.
+
+**ANÁLISIS DE NODOS**
+
 
 
 
