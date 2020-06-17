@@ -38,6 +38,32 @@ Este circuito tiene cuatro nodos : A, B, C y D. Tenemos que tomar en cuenta que 
 
 **ANÁLISIS DE NODOS**
 
+![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Nodos.png)
+
+En primer lugar, se establecen los nodos. En este caso, existen 6 nodos:
+
+* Entre la fuente V1 de la izquierda y la resistencia 1.
+
+* Entre las resistencias R1, R2 y R3. 
+
+* Entre las resistencias R3, R4 y R5. 
+
+* Entre las resistencias R5, R6 y R7.
+
+* Entre la fuente V2 de la derecha y la resistencia R7. 
+
+* Entre V1, R2, R4, R6 y V2.
+
+En segundo lugar, se elige un nodo como referencia, en este caso se elegirá el nodo 0 como referencia. Para encontrar los voltajes en los nodos 2, 3 y 4 utilizamos la Ley de las Corrientes de Kirchhoff la cual propone que la sumatoria de las corrientes que entran a un nodo es igual a la sumatoria de las corrientes que salen del mismo:
+
+∑ corrientes de entrada = ∑ corrientes de salida
+ 
+Y para saber las corrientes hacemos uso de la ley de Ohm:
+
+I=V/R
+
+
+* Análisis en el nodo 2
 
 
 
