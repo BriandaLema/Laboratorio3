@@ -180,7 +180,7 @@ Para terminar podemos sugerir utilizar de manera adecuada en paralelo el uso del
 
 ## 12. CRONOGRAMA
 
-![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Cronograma%20lab%203.png)
+![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Cronograma%20Laboratorio%203.png)
 
 https://trello.com/b/0H6PFJ5Y/lab-3
 
