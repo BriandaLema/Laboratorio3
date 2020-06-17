@@ -126,29 +126,31 @@ Para complementar la correcta cuantificacion de valores calculados y valores med
 
 ANÁLISIS DE NODOS
 
-| CORRIENTE | MEDIDO | CALCULADO  |
+| NODO | MEDIDO| CALCULADO |
 |----------|------|-------|
-| I1 (A) | 0.01145 A | 0.0115 A|
-| I2 (A) | 0.00285 A| 0.00285 A|
-| I3 (A) | 0.00049 A | 0.000488 A |
+| 1 | 9.1801 V | |
+| 2 | 2.8199 V | |
+| 3 | -1.9817 V |  |
+| 4 | 4.8016 V | |
+| 5 | -3.1984 V | |
 
 
 
 - CÁLCULO DEL ERROR DE LA CORRIENTE
 
-∑(Corriente calculado)= (0.0115 + 0.00285 + 0.000488) A
+∑(Voltaje calculado)= ( +  + ) A
 
-∑(Corriente calculado)=  0.01484 A
+∑(Corriente calculado)=  
 
-∑(Corriente medido)= (0.01145 + 0.00285 + 0.00049) A
+∑(Corriente medido)= (9.1801 + 2.8199 -1.9817 + 4.8016 - 3.1984) V
 
-∑(Corriente medido)= 0.01479 A 
+∑(Corriente medido)= 11.6215 V
 
-%error=((Valor teórico-Valor medido)/Valor teórico)* 100
+%error=((Valor calculado - Valor medido)/Valor calculado)* 100
 
-%error=((0.01484 A - 0.01479 A)/ 0.01484 A)* 100
+%error=(( - 11.6215 V)/ )* 100
 
-%error= 0.34 % 
+%error=  % 
 
 Como podemos observar los valores de cada corriente medida en las tres mallas con analisís de mallas son muy parecidos a los valores cálculados con el Tinkercad, ya que el porcentaje de error de la corriente es menor al 1%.
 
@@ -174,9 +176,7 @@ https://trello.com/b/0MUzNNnz/lab-2
 
 ## 13. BIBLIOGRAFÍA
 
-* Antony, G. G. (26 de Julio de 2013). PANAMAHITEK. Obtenido de http://panamahitek.com/ley-de-los-voltajes-de-kirchhoff-metodo-de-mallas/#:~:text=En%20un%20circuito%20el%C3%A9ctrico%2C%20una,formadas%20por%204%20caminos%20cerrados.&text=Si%20multiplicamos%20las%20corrientes%20de,el%20total%20debe%20ser%20cero.
 
-* Willi, M. (s.f.). KHAN ACADEMY. Obtenido de https://es.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/a/ee-mesh-current-method
 
 
 
