@@ -69,6 +69,12 @@ I=V/R
 
 La única corriente que entra al nodo es la que viene de la fuente y la corriente que pasa por R2 y por R3 salen del nodo.
 
+![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/C%C3%A1lculo.png)
+
+Se asume que los 10 voltios de la fuente es mayor al voltaje en el nodo 2 ya que se produce una caída de voltaje en la resistencia. Las corrientes que salen serán la corriente que va del nodo 2 al nodo 3 y las que van del nodo 2 a tierra. Se asume que el voltaje 2 es mayor que el voltaje en el nodo 3.  El voltaje en tierra es cero voltios. 
+Al final simplificamos la ecuación e igualamos la ecuación a un término independiente:
+
+
 
 ## 4. DIAGRAMAS
 
