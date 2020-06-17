@@ -12,7 +12,7 @@ TEMA: Análisis de nodos
 
 * Aplicar el uso de las leyes de voltaje de Kirchhoff  para el análisis de nodos.
 
-* Examinar el funcionamiento de un circuito mixto con 2 fuentes de voltaje.
+* Examinar los valores de los voltajes que se ejecutan dentro de cada resitencia.
 
 * Comparar los valores medidos con los valores calculados en el circuito y establecer el porcentaje de error resultante.
 
