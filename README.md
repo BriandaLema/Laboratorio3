@@ -63,8 +63,11 @@ Y para saber las corrientes hacemos uso de la ley de Ohm:
 I=V/R
 
 
-* Análisis en el nodo 2
+**Análisis en el nodo 2**
 
+![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Nodo%202.png)
+
+La única corriente que entra al nodo es la que viene de la fuente y la corriente que pasa por R2 y por R3 salen del nodo.
 
 
 ## 4. DIAGRAMAS
