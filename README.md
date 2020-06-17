@@ -12,7 +12,7 @@ TEMA: Análisis de nodos
 
 * Aplicar el uso de las leyes de voltaje de Kirchhoff  para el análisis de nodos.
 
-* Examinar los valores de los voltajes que se ejecutan dentro de cada resitencia.
+* Examinar los valores de los voltajes que se ejecutan dentro de cada resistencia.
 
 * Comparar los valores medidos con los valores calculados en el circuito y establecer el porcentaje de error resultante.
 
