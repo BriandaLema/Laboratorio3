@@ -10,18 +10,19 @@ TEMA: Análisis de nodos
 
 **1,2.-ESPECÍFICOS**
 
+* Aplicar el uso de las leyes de voltaje de Kirchhoff  para el análisis de nodos.
+
 * Examinar el funcionamiento de un circuito mixto con 2 fuentes de voltaje.
 
 * Comparar los valores medidos con los valores calculados en el circuito y establecer el porcentaje de error resultante.
 
-* Aplicar el uso de las leyes de voltaje de Kirchhoff  para el análisis de mallas.
 
 
 ## 2. PLANTEAMIENTO DEL PROBLEMA
 
 Este proyecto consistió en la implementación de un circuito electrónico virtual en un programa online denominado Tinkercad con la finalidad de experimentar una simulación del circuito donde es posible aplicar el Análisis de nodos. 
 
-Se procede a realizar ensamblaje   del circuito con resistencias en serie y paralelo de diferentes valores para que estas formen mallas con el fin de poder realizar su análisis midiendo las corrientes de cada malla del circuito.
+Se procede a realizar ensamblaje   del circuito con resistencias en serie y paralelo de diferentes valores para que estas forme el circuito con el fin de poder realizar su análisis midiendo los voltajes de cada resistencia a través de
 
 
 ## 3. MARCO TEÓRICO 
@@ -80,7 +81,17 @@ Realizamos el mismo procedimiento en los siguientes nodos y obtendremos una seri
 
 ## 4. DIAGRAMAS
 
-Para este laboratorio se utilizó un circuito mixto en donde podemos diferenciar que se encuentra constituido por 3 mallas.
+Para este laboratorio se utilizó un circuito mixto en donde podemos diferenciarque existen 5 nodos:
+
+* Entre la fuente V1 de la izquierda y la resistencia 1.
+
+* Entre las resistencias R1, R2 y R3. 
+
+* Entre las resistencias R3, R4 y R5. 
+
+* Entre la fuente V2 de la derecha y la resistencia R5. 
+
+* Entre V1, R2, R4 y V2.
 
 ![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Laboratorio%203.png)
 
@@ -128,51 +139,51 @@ ANÁLISIS DE NODOS
 
 | NODO | MEDIDO| CALCULADO |
 |----------|------|-------|
-| 1 | 9.1801 V | |
-| 2 | 2.8199 V | |
-| 3 | -1.9817 V |  |
-| 4 | 4.8016 V | |
-| 5 | -3.1984 V | |
+| 1 | 9.1801 V | 9.18 V|
+| 2 | 2.8199 V | 2.82 V|
+| 3 | -1.9817 V | -1.98 V|
+| 4 | 4.8016 V | 4.8 V|
+| 5 | -3.1984 V | -3.2 V|
 
 
 
 - CÁLCULO DEL ERROR DE LA CORRIENTE
 
-∑(Voltaje calculado)= ( +  + ) A
+∑(Voltaje calculado)= (9.18 + 2.82 -1.98 + 4.8 -3.2 ) V
 
-∑(Corriente calculado)=  
+∑(Corriente calculado)= 11.62 V 
 
 ∑(Corriente medido)= (9.1801 + 2.8199 -1.9817 + 4.8016 - 3.1984) V
 
 ∑(Corriente medido)= 11.6215 V
 
-%error=((Valor calculado - Valor medido)/Valor calculado)* 100
+%error=((Valor medido - Valor calculado)/Valor medido)* 100
 
-%error=(( - 11.6215 V)/ )* 100
+%error=(( 11.6215 V- 11.62 V)/11.6215 V )* 100
 
-%error=  % 
+%error=  0.013%
 
-Como podemos observar los valores de cada corriente medida en las tres mallas con analisís de mallas son muy parecidos a los valores cálculados con el Tinkercad, ya que el porcentaje de error de la corriente es menor al 1%.
+Como podemos observar los valores de cada voltaje medido en los nodos son muy parecidos a los valores cálculados con el Tinkercad, ya que el porcentaje de error de la corriente es menor al 1%.
 
-Habiendo simulado y creado el circuito, se observa que las corrientes con valores teóricos y los prácticos son semejantes, dando a conocer el funcionamiento del método de análisis de malla.
+Despues de crear el circuito podemos denotarque los voltajes en valores teóricos y en los prácticos son semejantes, dando a conocer el funcionamiento del método de análisis de nodos.
 
-Conluimos generalmente que hay una pequeña diferencia entre los valores medidos y calculados, se podría dar por dos razones : al momento de calcular con el multímetro los valores, intervienen las tolerancias de las resistencias, y esto podría afectar a los valores obtenidos; mientras que en los valores medidos intervien la falta de utilización de todos los decimales,  lo cual afecta los valores obtenemos. 
+Conluimos generalmente que hay una pequeña diferencia entre los valores medidos y calculados, se podría dar por dos razones : al momento de calcular con el multímetro los valores, intervienen las tolerancias de las resistencias, y esto podría afectar a los valores calculados; mientras que en los valores medidos intervien la falta de utilización de todos los decimales,  lo cual afecta los resultados.
 
 
 
 ## 11. RECOMENDACIONES
 
-Recomendamos el asegurarse del correcto cálculo de los valores de manera clara y ordenada, de lo contrario, tendríamos un % de error excesivo. Es muy importante asignar una corriente de malla a cada malla (sentido cualquiera) y asignar una polarización a cada elemento del circuito.
+Recomendamos el asegurarse del correcto cálculo de los valores de manera clara y ordenada, de lo contrario, tendríamos un % de error excesivo.
 
 Así mismo se recomienda cerciorarse de que la implementación de circuito este correctamente elaborado tal como está planteado.
-Para terminar podemos sugerir utilizar de manera adecuada en serie el uso del multímetro para el cálculo de las corrientes.
+Para terminar podemos sugerir utilizar de manera adecuada en paralelo el uso del multímetro para el cálculo de los voltajes.
 
 
 ## 12. CRONOGRAMA
 
-![](https://github.com/BriandaLema/Laboratorio2/blob/master/img/Cronograma.png)
+![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Cronograma%20lab%203.png)
 
-https://trello.com/b/0MUzNNnz/lab-2
+https://trello.com/b/0H6PFJ5Y/lab-3
 
 ## 13. BIBLIOGRAFÍA
 
@@ -183,4 +194,4 @@ https://trello.com/b/0MUzNNnz/lab-2
 * THOMAS, L. F. (2007). PRINCIPIOS DE CIRCUITOS ELÉCTRICOS. MÉXICO: Pearson Educación de México, S.A. de C.V.
 
 ## 14.- ANEXOS
-https://github.com/BriandaLema/Laboratorio2/blob/master/ANEXOS/ANEXOS.pdf
+https://github.com/BriandaLema/Laboratorio3/blob/master/Anexos/Anexos.pdf
