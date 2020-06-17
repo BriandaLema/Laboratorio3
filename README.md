@@ -176,9 +176,11 @@ https://trello.com/b/0MUzNNnz/lab-2
 
 ## 13. BIBLIOGRAFÍA
 
+* ANTHONY, G. G. (26 de 07 de 2013). PANAMAHITEK. Obtenido de http://panamahitek.com/ley-de-las-corrientes-de-kirchhoff-metodo-de-nodos/
 
+* JOSÉ, S. G. (2009). FUNDAMENTOS DE CIRCUITOS. Bogotá : Ediciones Uniandes.
 
-
+* THOMAS, L. F. (2007). PRINCIPIOS DE CIRCUITOS ELÉCTRICOS. MÉXICO: Pearson Educación de México, S.A. de C.V.
 
 ## 14.- ANEXOS
 https://github.com/BriandaLema/Laboratorio2/blob/master/ANEXOS/ANEXOS.pdf
